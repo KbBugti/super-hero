@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Details Page</title>
+</head>
+
+<body>
+    <div>
+        <img class="header-img" src="../assets/images/header.png" alt="batman">
+    </div>
+    <header>
+        <div class="app-name center">
+            <button id="home-btn" type="button"><a href='index.html'>Home</a></button>
+        </div>
+        <div class="center">
+            <input type="text" id="search-data" placeholder="start searching...">
+        </div>
+        <div></div>
+    </header>
+
+    <!-- Notification Alert -->
+    <div id="alert" style="visibility:hidden" class="success">Success Message</div>
+    <div id="alert" style="visibility:hidden" class="failure">Error Message</div>
+
+
+    <div id="main-container">
+        <!-- Hero data will be appended here -->
+        <div id='data-container'>
+            <!-- Image of the hero -->
+            <div id="image">
+                <img width="400" height="400">
+                <img id="fav_btn" width="50">
+            </div>
+
+            <div id="detail-container">
+
+                <div class="detail-item">
+                    <span class="anchor" id="appearance-target"></span>
+                    <h1>Appearance</h1>
+                    <section id="appearance">...</section>
+                </div>
+                <div class="detail-item">
+                    <span class="anchor" id="biography-target"></span>
+                    <h1>Biography</h1>
+                    <section id="biography">...</section>
+                </div>
+                <div class="detail-item">
+                    <span class="anchor" id="occupation-target"></span>
+                    <h1>Occupation</h1>
+                    <section id="occupation">...</section>
+                </div>
+                <div class="detail-item">
+                    <span class="anchor" id="connections-target"></span>
+                    <h1>Connections</h1>
+                    <section id="connections">...</section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../scripts/details.js"></script>
+</body>
+
+</html>

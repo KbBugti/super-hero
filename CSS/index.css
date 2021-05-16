@@ -1,0 +1,268 @@
+@font-face {
+    font-family: xolonium;
+    src: url(../assets/fonts/Xolonium-Regular.ttf);
+}
+
+* {
+    font-family: Xolonium;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    /* background-image: url("../assets/images/marvel.png");
+    background-repeat: no-repeat;
+    opacity: 0.5; */
+}
+
+#alert {
+    position: absolute;
+    top: 30px;
+    border-radius: 10px;
+    z-index: 99;
+    width: max-content;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    right: 250px;
+    transition-duration: 800ms;
+}
+
+.success {
+    margin-top: 195px;
+    color: black;
+    background-color: red;
+}
+
+.failure {
+    margin-top: 195px;
+    color: black;
+    background-color: yellow;
+}
+
+
+body,
+html {
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px 0px red;
+}
+
+header * {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+#home-btn {
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-right: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#home-btn a {
+
+    color: #ffffff;
+}
+
+#home-btn a:hover {
+    color: red;
+}
+
+header button a {
+    text-decoration: none;
+}
+
+.header-img {
+    margin-top: 10px;
+    min-width: 100%;
+    height: 200px;
+    opacity: 7.3;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+
+header input {
+    height: 35px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 25px;
+    outline: 1px solid red;
+    color: #ffffff;
+}
+
+input:hover {
+    color: #ffffff;
+    background-color: #2b2a2a;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main result body */
+#result-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+#results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 280px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #646464;
+}
+
+.card-img-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.card-name {
+    padding: 5px;
+}
+
+.card-name:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1vh;
+}
+
+#top-bar {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #ff2121;
+    z-index: 10;
+}
+
+#top-bar * {
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+}
+
+#top-bar *:hover {
+    color: red;
+}
+
+.anchor {
+    display: block;
+    height: 200px;
+    margin-top: -200px;
+    visibility: hidden;
+}
+
+
+#data-container {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 30px;
+    padding: 100px;
+    align-items: center;
+}
+
+#fav_btn {
+    margin-top: 30px;
+    box-shadow: 0px 0px 15px 0px #ff2121;
+    border-radius: 100%;
+}
+
+#detail-container {
+    position: relative;
+    width: 70%;
+}
+
+.detail-item {
+    padding: 20px;
+    width: 80%;
+}
+
+#stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+#stat-names {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+#stat-names span {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+}
