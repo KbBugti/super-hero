@@ -1,7 +1,3 @@
-/* @font-face{
-    font-family: xolonium;
-    src: url(../assets/fonts/Xolonium-Regular.ttf);
-} */
 
 *{
     font-family: Xolonium;
@@ -58,14 +54,6 @@ header *{
     font-size: 1.6rem;
     text-decoration: none;
 }
-
-/* .favourite-router *{
-    border-radius: 10px;
-}
-
-.favourite-router *:hover{
-    color: red;
-} */
 
 .app-name{
     padding-left: 20px;
@@ -124,8 +112,8 @@ header button a{
 
 .anchor{
     display: block;
-    height: 200px; /*same height as header*/
-    margin-top: -200px; /*same height as header*/
+    height: 200px;
+    margin-top: -200px;
     visibility: hidden;
 }
 
@@ -137,9 +125,7 @@ header button a{
     display: flex;
     flex-direction: row;
     justify-content: left;
-
     background-color: rgba(0, 0, 0, 0);
-
 }
 
 #image{
