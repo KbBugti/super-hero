@@ -11,5 +11,5 @@
 - [x] Added favourite Alert button
 
 
-# Please checkout Superhero Web Page
+# Please fins your Superhero here
 https://kbbugti.github.io/superhero-webapp/HTML/index.html
