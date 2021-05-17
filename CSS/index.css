@@ -104,14 +104,13 @@ header button a {
     margin-bottom: 8px;
 }
 
-
 header input {
     height: 35px;
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     border: 1px solid red;
     border-radius: 25px;
-    outline: 1px solid red;
+    outline: none;
     color: #ffffff;
 }
 
